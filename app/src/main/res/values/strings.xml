@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Top100CDS</string>
+
+    <!-- region General -->
+    <string name="ok">OK</string>
+    <string name="error_generic_message">Something went wrong, please try again.</string>
+    <string name="error_button_text">Try again</string>
+    <!-- endregion -->
+
+    <!-- region Unimplemented -->
+    <string name="unimplemented_feature_title">Sorry</string>
+    <string name="unimplemented_feature_description">This feature has not been implemented yet. Stay tuned!</string>
+    <!-- endregion -->
+
+    <!-- region Albums -->
+    <string name="albums_toolbar_title">Top 100 Albums</string>
+    <string name="albums_detail_copyright">Copyright © 2022 Apple Inc. All rights reserved.</string>
+    <string name="album_detail_release_date">Released %s</string>
+    <string name="album_detail_button_visit">"Visit The Album"</string>
+    <!-- endregion -->
+
+</resources>

@@ -1,0 +1,5 @@
+rootProject.name='top100'
+include ':app'
+include ':domain'
+include ':data'
+include ':common'

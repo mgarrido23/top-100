@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="5" by="lint 4.1.1" client="gradle" variant="all" version="4.1.1">
+
+    <issue
+        id="IidCompatibilityCheckFailure"
+        message="Check failed with exception: java.lang.NoSuchMethodException: com.android.tools.lint.detector.api.LintModelModuleProject.getGradleProjectModel()">
+        <location
+            file="app"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.logo_cds` appears to be unused">
+        <location
+            file="src/main/res/drawable-hdpi/logo_cds.png"/>
+        <location
+            file="src/main/res/drawable-mdpi/logo_cds.png"/>
+        <location
+            file="src/main/res/drawable-xhdpi/logo_cds.png"/>
+        <location
+            file="src/main/res/drawable-xxhdpi/logo_cds.png"/>
+        <location
+            file="src/main/res/drawable-xxxhdpi/logo_cds.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.Widget_CodigoDelSur_TextView_Headline1` appears to be unused"
+        errorLine1="    &lt;style name=&quot;Widget.CodigoDelSur.TextView.Headline1&quot;>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/styles.xml"
+            line="60"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="NullSafeMutableLiveData"
+        message="Expected non-nullable value"
+        errorLine1="                    else _noAssociatedAccountFound.value = socialData"
+        errorLine2="                                                           ~~~~~~~~~~">
+        <location
+            file="src/main/java/com/codigodelsur/app/presentation/ui/signinwall/onboarding/OnboardingViewModel.kt"
+            line="48"
+            column="60"/>
+    </issue>
+
+</issues>
