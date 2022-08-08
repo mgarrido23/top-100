@@ -21,8 +21,8 @@ data class PAlbum(
     val url: String
 ) : Parcelable {
 
-    val artworkUrl400 :String
-        get() = artworkUrl100.replace("100x100","400x400")
+    val artworkUrl400: String
+        get() = artworkUrl100.replace("100x100", "400x400")
 
     val releaseDateFormatted: String
         get() = releaseDate.toDate()?.toFormattedDate() ?: releaseDate
